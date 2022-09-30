@@ -6,15 +6,6 @@ from django.views.decorators import csrf
 from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
-
-def index(request):
-    obj = {
-        'Hackathon': 'DBMS',
-        'Team Name': 'IIIT-Nagpur'
-    }
-    return JsonResponse(obj, safe=False)
-
-
 def home(request):
     return HttpResponse("DBMS Project 2021")
 
@@ -32,9 +23,4 @@ def fest(request):
 def meal(request):
     return HttpResponse("D3 MEals a Day")
 
-def school(request):
-    return HttpResponse("St. MArys School")
-def College(request):
-    return HttpResponse("IIIT N")
-def projectid(request):
-    return HttpResponse("015248")
+
