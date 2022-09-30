@@ -23,3 +23,6 @@ def town(request):
 def Hello(request):
     return HttpResponse("Hi")
 
+
+def edit(request):
+    return HttpResponse("ok done")
