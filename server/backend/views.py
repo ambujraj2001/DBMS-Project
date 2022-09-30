@@ -31,3 +31,10 @@ def fest(request):
 
 def meal(request):
     return HttpResponse("D3 MEals a Day")
+
+def school(request):
+    return HttpResponse("St. MArys School")
+def College(request):
+    return HttpResponse("IIIT N")
+def projectid(request):
+    return HttpResponse("015248")
