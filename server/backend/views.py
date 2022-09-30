@@ -22,3 +22,9 @@ def Nag(request):
 
 def edit(request):
     return HttpResponse("ok done")
+
+def Nor(request):
+    return HttpResponse("oMal")
+
+def cha(request):
+    return HttpResponse("nges")
