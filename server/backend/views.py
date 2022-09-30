@@ -9,11 +9,11 @@ from django.views.decorators.csrf import csrf_exempt
 
 def index(request):
     obj = {
-        'Hackathon': 'SIH-2022',
-        'Team Name': 'Access Denieded'
+        'Hackathon': 'DBMS',
+        'Team Name': 'IIIT-Nagpur'
     }
     return JsonResponse(obj, safe=False)
 
 
 def home(request):
-    return HttpResponse("SIH-2022 App")
+    return HttpResponse("DBMS Project 2021")
