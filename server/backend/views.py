@@ -17,3 +17,7 @@ def index(request):
 
 def home(request):
     return HttpResponse("DBMS Project 2021")
+
+
+def projectid(request):
+    return HttpResponse("015248")
