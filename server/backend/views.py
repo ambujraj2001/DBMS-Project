@@ -23,11 +23,4 @@ def fest(request):
 def meal(request):
     return HttpResponse("D3 MEals a Day")
 
-def index(request):
-    obj = {
-        'Hackathon': 'DBMS',
-        'Team Name': 'IIIT-Nagpur'
-    }
-    return JsonResponse(obj, safe=False)
-
 
