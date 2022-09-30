@@ -21,3 +21,7 @@ def home(request):
 
 def projectid(request):
     return HttpResponse("015248")
+
+
+def projectname(request):
+    return HttpResponse("DBMS LAB CSE SEM5 ")
