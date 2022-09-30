@@ -16,10 +16,6 @@ def index(request):
 
 
 
-def town(request):
-    return HttpResponse("DBMS Project 2022")
-
-
-def Hello(request):
-    return HttpResponse("Hi")
+def Nag(request):
+    return HttpResponse("Pur")
 
