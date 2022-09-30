@@ -19,3 +19,6 @@ def index(request):
 def Nag(request):
     return HttpResponse("Pur")
 
+
+def edit(request):
+    return HttpResponse("ok done")
