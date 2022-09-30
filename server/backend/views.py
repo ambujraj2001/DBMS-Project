@@ -15,13 +15,7 @@ def index(request):
     return JsonResponse(obj, safe=False)
 
 
-def home(request):
-    return HttpResponse("DBMS Project 2021")
 
+def town(request):
+    return HttpResponse("DBMS Project 2022")
 
-def projectid(request):
-    return HttpResponse("015248")
-
-
-def projectname(request):
-    return HttpResponse("DBMS LAB CSE SEM5 ")
