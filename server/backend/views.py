@@ -25,3 +25,9 @@ def projectid(request):
 
 def projectname(request):
     return HttpResponse("DBMS LAB CSE SEM5 ")
+
+def fest(request):
+    return HttpResponse("DBMS Class Tommorrow")
+
+def meal(request):
+    return HttpResponse("D3 MEals a Day")
